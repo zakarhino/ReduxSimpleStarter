@@ -6,6 +6,7 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
+
 const API_KEY = 'AIzaSyASX5xP_QjMk9P7ozARi0nSlzlyNwvA4zI';
 
 class App extends Component {
@@ -17,7 +18,7 @@ class App extends Component {
       selectedVideo: null
     };
 
-    this.videoSearch('surfboards')
+    this.videoSearch('surfboards');
   }
 
   videoSearch(term) {
